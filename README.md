@@ -78,8 +78,8 @@ Recovered:
 [INC-001 – Backend Unhealthy](docs/incidents/INC-001-backend-unhealthy.md)
 
 📸 Evidence:
-- ![Backend Unhealthy](docs/screenshots/backend_unhealthy.jpeg)
 - ![Stopping Instance](docs/screenshots/stopping_instance1.jpeg)
+- ![Backend Unhealthy](docs/screenshots/backend_unhealthy.jpeg)
 
 ---
 
