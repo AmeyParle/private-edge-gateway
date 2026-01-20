@@ -45,11 +45,12 @@ jobs:
         run: tflint
 
       - name: Checkov
-        continue-on-error: true
         uses: bridgecrewio/checkov-action@v12
         with:
           directory: infra/envs/dev
           quiet: true
+          soft_fail: true
+          output_format: cli
 
       - name: Azure login (OIDC)
         uses: azure/login@v2
