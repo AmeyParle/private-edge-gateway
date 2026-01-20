@@ -43,7 +43,7 @@ Detailed explanation:
 
 📸 Evidence:
 - ![Landing Page](docs/screenshots/landing_page.jpeg)
-- ![Backend Health](docs/screenshots/backend_health.jpeg)
+- ![Backend Health](docs/screenshots/backend_healthy.jpeg)
 - ![VMSS No Public IP](docs/screenshots/vmss_no_public_ip.jpeg)
 
 ---
