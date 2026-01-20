@@ -9,3 +9,10 @@ output "hub_firewall_subnet_id" { value = azurerm_subnet.hub_firewall.id }
 
 output "spoke_appgw_subnet_id" { value = azurerm_subnet.spoke_appgw.id }
 output "spoke_app_subnet_id" { value = azurerm_subnet.spoke_app.id }
+
+output "firewall_private_ip" {
+  value = azurerm_firewall.this.ip_configuration[0].private_ip_address
+}
+output "appgw_public_ip" {
+  value = azurerm_public_ip.appgw.ip_address
+}
